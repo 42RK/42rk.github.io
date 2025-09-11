@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-slate-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42rk.github.io</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-full text-gray-800 antialiased p-4">
+
+    <main class="flex flex-col items-center text-center max-w-2xl w-full space-y-8">
+        <!-- Main heading for the site -->
+        <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-4">
+            Hello!
+        </h1>
+
+        <!-- Subtitle or brief description -->
+        <p class="text-lg text-gray-600">
+            Welcome to my GitHub page. You can find some of the tools I've built below.
+        </p>
+
+        <!-- Container for tool links -->
+        <div class="w-full space-y-4">
+            <!-- Link to wplace-finder -->
+            <a href="https://42rk.github.io/wplace-finder/wplace-finder" class="block w-full">
+                <div class="bg-white hover:bg-slate-200 transition-colors duration-200 p-6 rounded-xl shadow-lg border border-slate-300">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">wplace Empty Chunk Finder</h2>
+                    <p class="text-sm text-gray-600">
+                        A tool to search for unused tile locations.
+                    </p>
+                </div>
+            </a>
+
+            <!-- Link to pixel-font -->
+            <a href="https://42rk.github.io/pixel-font/fontgenerator" class="block w-full">
+                <div class="bg-white hover:bg-slate-200 transition-colors duration-200 p-6 rounded-xl shadow-lg border border-slate-300">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Pixel Font Generator</h2>
+                    <p class="text-sm text-gray-600">
+                        Generate and save custom pixel fonts.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </main>
+    
+    <!-- Footer with a simple note and a tooltip -->
+    <footer class="mt-12 text-center text-gray-500 text-sm group relative">
+        <p>Built with <span class="group relative cursor-pointer font-bold">passion
+            <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max px-3 py-1 bg-gray-700 text-white text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                and more reliance on LLMs than I'm willing to admit
+            </span>
+        </span> by 42rk.</p>
+    </footer>
+
+</body>
+</html>
